@@ -92,6 +92,8 @@ curl -X 'POST' \
 
 ### Response Example:
 
+![Sample Output](audio_summarizer_output.png)
+
 ```json
 {
     "summarized_text": "This is the summarized version of the transcribed audio."
