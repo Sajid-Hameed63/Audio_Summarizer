@@ -27,8 +27,8 @@ This project is a FastAPI-based web application that processes audio files to pe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Sajid-Hameed63/Multi-Speaker-Audio-Summarizer.git
+   cd Multi-Speaker-Audio-Summarizer
    ```
 
 2. Create a virtual environment:
@@ -43,8 +43,10 @@ This project is a FastAPI-based web application that processes audio files to pe
    ```
 
 4. Add your Hugging Face token and OpenAI API key:
-   - Replace `your_HF_token_here` in `SpeechProcessingPipeline` class with your actual Hugging Face token.
+   - Replace `your_HF_token_here` in `SpeechProcessingPipeline` class with your actual Hugging Face token. 
    - Replace `your_openai_api_key_here` in `Summarizer` class with your actual OpenAI API key.
+  
+5. Get access to the [pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 ## Usage
 
